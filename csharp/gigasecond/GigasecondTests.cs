@@ -29,7 +29,7 @@ public class GigasecondTests
         Assert.Equal(new DateTime(2046, 10, 2, 23, 46, 40), Gigasecond.Add(new DateTime(2015, 1, 24, 22, 0, 0)));
     }
 
-    [Fact]//(Skip = "Remove this Skip property to run this test")]
+    [Fact]//cd(Skip = "Remove this Skip property to run this test")]
     public void Full_time_with_day_roll_over()
     {
         Assert.Equal(new DateTime(2046, 10, 3, 1, 46, 39), Gigasecond.Add(new DateTime(2015, 1, 24, 23, 59, 59)));
