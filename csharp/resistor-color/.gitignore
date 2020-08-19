@@ -1,0 +1,7 @@
+exercism.exe
+LICENSE
+shell/
+.exercism/ 
+node_modules/ 
+bin/ 
+obj/ 
