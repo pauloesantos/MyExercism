@@ -1,7 +1,6 @@
 ﻿using System;
 
-public static class ResistorColor
-{
+public static class ResistorColor {
     enum Colores {
         black = 0,
         brown = 1,
@@ -14,15 +13,13 @@ public static class ResistorColor
         grey = 8,
         white = 9
     }
-    public static int ColorCode(string color)
-    {
-        return (int)Enum.Parse(typeof(Colores), color);
+    public static int ColorCode (string color) {
+        return (int) Enum.Parse (typeof (Colores), color);
         //throw new NotImplementedException("You need to implement this function.");
     }
 
-    public static string[] Colors()
-    {
-        return Enum.GetNames(typeof(Colores)); 
+    public static string[] Colors () {
+        return Enum.GetNames (typeof (Colores));
         //new NotImplementedException("You need to implement this function.");
     }
 }
